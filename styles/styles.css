@@ -1,0 +1,76 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f00; /* Dodgeville orange */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #00509e; /* FFA blue */
+    color: white;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#intro {
+    background-color: #fff;
+    border: 1px solid #00509e; /* FFA blue */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#alertButton {
+    padding: 10px 20px;
+    background-color: #ffb300; /* FFA gold */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#alertButton:hover {
+    background-color: #00509e; /* FFA blue */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6f00; /* Dodgeville orange */
+    color: white;
+}
